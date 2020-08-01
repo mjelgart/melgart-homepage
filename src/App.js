@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +7,13 @@ function App() {
       <header className="App-header">
         <h2>Michael Elgart</h2>
         <p>
-          I'm a software engineer, sci-fi fan, Duke CS/Econ grad, and IBMer. 
+          I'm a software developer, IBMer, and Duke CS/Econ grad. 
+        </p>
+        <p>
+          I'm interested in governance, the long term future, and coding <a style={{color: '#61dafb'}} href="https://michaelelgart.com">self-referential websites</a>.
+        </p>
+        <p>
+          My skills are mostly in React, Node, Python, and Docker. For details, check out my LinkedIn. 
         </p>
         <a
           className="App-link"
@@ -43,9 +48,6 @@ function App() {
         >
           Blog
         </a>
-        <p>
-          I'm interested in, and occasionally blog about, effective altruism, sci-fi, and basketball.
-        </p>
       </header>
       <body className="App-body">
         <p>I'm currently redoing the site, so please pardon the dust. </p>
